@@ -24,6 +24,7 @@
 #else
 #define NNVM_DLL NNVM_EXTERN_C
 #endif
+#define NNVM_DLL NNVM_EXTERN_C
 
 /*! \brief manually define unsigned int */
 typedef unsigned int nn_uint;
