@@ -174,3 +174,5 @@ NNVM_REGISTER_PASS(Gradient)
 }  // namespace
 }  // namespace pass
 }  // namespace nnvm
+
+extern "C" __declspec(dllexport) void gradient_force_link(){ }

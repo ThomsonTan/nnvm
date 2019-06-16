@@ -243,3 +243,5 @@ DMLC_JSON_ENABLE_ANY(size_t, size_t);
 }  // namespace
 }  // namespace pass
 }  // namespace nnvm
+
+extern "C" __declspec(dllexport) void infer_type_force_link(){ }
